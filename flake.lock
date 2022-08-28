@@ -1,0 +1,127 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1659877975,
+        "narHash": "sha256-zllb8aq3YO3h8B/U0/J1WBgAL8EX5yWf5pMj3G0NAmc=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "c0e246b9b83f637f4681389ecabcb2681b4f3af0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "haskell-wayland": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1624039591,
+        "narHash": "sha256-GiH3oUuhtmecXqV3s5x8CZPXxG9qnPluLPDg5fJy+ks=",
+        "owner": "L-as",
+        "repo": "haskell-wayland",
+        "rev": "57530bf85580b612bfb956d7ea294c8e6324e53c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "L-as",
+        "repo": "haskell-wayland",
+        "type": "github"
+      }
+    },
+    "hsroots": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1624047582,
+        "narHash": "sha256-pNA4bwK4ONJ9AL6E69VHYpELRV5hWw4uIdxLWVR8jGA=",
+        "owner": "L-as",
+        "repo": "hsroots",
+        "rev": "c8932f99710ecba521a1741a34e9d7c750b3d5d6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "L-as",
+        "ref": "master",
+        "repo": "hsroots",
+        "type": "github"
+      }
+    },
+    "input": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1624124967,
+        "narHash": "sha256-HvIagDO9aPkETJD6XSXBASbnSyj2PgAET0HCk5g89Rk=",
+        "owner": "L-as",
+        "repo": "libinput",
+        "rev": "da47b1e900ddc0e0ea68de4f36cf74064d5fe998",
+        "type": "github"
+      },
+      "original": {
+        "owner": "L-as",
+        "repo": "libinput",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1661336769,
+        "narHash": "sha256-5Sf9tMd1Jdm+lTBGspbQ4kEoYCDKpUhEVAZHRcm6mGU=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "03428dbaaa23d6bf458770907b0927b377c873a8",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "haskell-wayland": "haskell-wayland",
+        "hsroots": "hsroots",
+        "input": "input",
+        "nixpkgs": "nixpkgs",
+        "waymonad-scanner": "waymonad-scanner",
+        "xkbcommon": "xkbcommon"
+      }
+    },
+    "waymonad-scanner": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1548599993,
+        "narHash": "sha256-zZXm6JPHcD/Rc947h0KCc0GsTA8fzhb1PBJ3W7LcIJ4=",
+        "owner": "waymonad",
+        "repo": "waymonad-scanner",
+        "rev": "91f184e390aeb542eb3ccecabc848e9baea7162c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "waymonad",
+        "repo": "waymonad-scanner",
+        "type": "github"
+      }
+    },
+    "xkbcommon": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1624119072,
+        "narHash": "sha256-9TKsAY7nGYfCXgB8MBy9uLRICi1eWQwMSGhbzICqI1k=",
+        "owner": "L-as",
+        "repo": "haskell-xkbcommon",
+        "rev": "fbf66b30fde9a1dbda1cb591d13d55ff295d49bc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "L-as",
+        "repo": "haskell-xkbcommon",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
